@@ -2,10 +2,10 @@ public class App {
  
     public static void main(String[] args) {
         // Criando os empregados
-        Mensalista men1 = new Mensalista("Jose", "Rua abc", "Junior");
-        Mensalista men2 = new Mensalista("Ana", "Rua sem fim", "Senior");
+        Mensalista men1 = new Mensalista("Yuri", "Rua abc", "Junior");
+        Mensalista men2 = new Mensalista("Dantas", "Rua sem fim", "Senior");
  
-        Horista hora1 = new Horista("Carlos", "Rua xyz", 20);  // 20 horas trabalhadas
+        Horista hora1 = new Horista("Guilherme", "Rua xyz", 20);  // 20 horas trabalhadas
         Horista hora2 = new Horista("Cristina", "Rua do centro", 100);  // 100 horas trabalhadas
  
         // Calculando salário para Mensalistas
