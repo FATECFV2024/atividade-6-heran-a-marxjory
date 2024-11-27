@@ -1,10 +1,22 @@
-public class App
-public static void main(String[] args)  throws Exception {
+public class Mensalista extends Empregado {
+    private String cargo;
 
-    Empregado empregado = new Empregado (empregado.getNome(), "Rua das flores", 12);
-    empregado.salario = 3500;
+    public Mensalista (String n, String e, String c){
+        super (n,e);
+        cargo = c;
+    }
 
-    Mensalista 
-    empregado.ImprimirDados();
-    
+    public void set_cargo(String c){
+        return (cargo);
+    }
+
+    public void calcularSalario(){
+        if (cargo.equals("Kaue")){
+            salario = 2500;
+        } else if (cargo.equals("Pleno")){
+            salario = 3500;
+        } else if (cargo.equals("Senior")){
+            salario = 5500
+        }
+    }
 }
