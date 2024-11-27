@@ -1,0 +1,10 @@
+public class App
+public static void main(String[] args)  throws Exception {
+
+    Empregado empregado = new Empregado (empregado.getNome(), "Rua das flores", 12);
+    empregado.salario = 3500;
+
+    Mensalista 
+    empregado.ImprimirDados();
+    
+}
